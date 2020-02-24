@@ -1,0 +1,6 @@
+framework module LMGEventLogging {
+  umbrella header "LMGEventLogging.h"
+
+  export *
+  module * { export * }
+}

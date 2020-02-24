@@ -1,0 +1,6 @@
+framework module LMGSensorData {
+  umbrella header "LMGSensorData.h"
+
+  export *
+  module * { export * }
+}

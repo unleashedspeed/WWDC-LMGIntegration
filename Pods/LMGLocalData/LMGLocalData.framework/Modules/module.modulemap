@@ -1,0 +1,6 @@
+framework module LMGLocalData {
+  umbrella header "LMGLocalData.h"
+
+  export *
+  module * { export * }
+}

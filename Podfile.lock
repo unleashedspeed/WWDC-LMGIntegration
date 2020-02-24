@@ -1,0 +1,121 @@
+PODS:
+  - Apollo (0.9.5):
+    - Apollo/Core (= 0.9.5)
+  - Apollo/Core (0.9.5)
+  - Crashlytics (3.12.0):
+    - Fabric (~> 1.9.0)
+  - Fabric (1.9.0)
+  - FBAnnotationClustering (0.2.2)
+  - FLAnimatedImage (1.0.12)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - JLRoutes (2.1)
+  - LMGData (0.5.35):
+    - LMGDataAccess (= 1.0.10)
+    - LMGDomain (= 1.0.16)
+    - LMGEventLogging (= 1.0.8)
+    - LMGLocalData (= 1.0.10)
+    - LMGNotificationBus (= 1.0.9)
+    - LMGRemoteData (= 1.0.17)
+    - LMGSensorData (= 1.0.5)
+  - LMGDataAccess (1.0.10):
+    - LMGDomain (~> 1.0.16)
+  - LMGDomain (1.0.16)
+  - LMGEventLogging (1.0.8):
+    - LMGNotificationBus (~> 1.0.8)
+    - SnowplowTracker (~> 0.9.0)
+  - LMGLocalData (1.0.10):
+    - LMGDataAccess (~> 1.0.8)
+  - LMGNotificationBus (1.0.9):
+    - LMGDomain (~> 1.0.13)
+  - LMGRemoteData (1.0.17):
+    - Apollo (~> 0.9.1)
+    - LMGDataAccess (~> 1.0.9)
+    - LMGNotificationBus (~> 1.0.9)
+  - LMGSensorData (1.0.5):
+    - LMGDataAccess (~> 1.0.3)
+  - LMGUI (0.3.33):
+    - FBAnnotationClustering (= 0.2.2)
+    - LMGData (= 0.5.35)
+    - SDWebImage (= 4.4.2)
+  - OneSignal (2.9.5)
+  - PINCache (2.3)
+  - PINRemoteImage (2.1.4):
+    - PINRemoteImage/FLAnimatedImage (= 2.1.4)
+  - PINRemoteImage/Core (2.1.4):
+    - PINCache (>= 2.1)
+  - PINRemoteImage/FLAnimatedImage (2.1.4):
+    - FLAnimatedImage (>= 1.0)
+    - PINRemoteImage/Core
+  - Reachability (3.2)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - Smooch (6.12.0)
+  - SnowplowTracker (0.9.0):
+    - FMDB (= 2.6.2)
+    - Reachability (= 3.2)
+
+DEPENDENCIES:
+  - Crashlytics
+  - JLRoutes
+  - LMGUI
+  - OneSignal
+  - PINRemoteImage
+  - Smooch
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Apollo
+    - Crashlytics
+    - Fabric
+    - FBAnnotationClustering
+    - FLAnimatedImage
+    - FMDB
+    - JLRoutes
+    - LMGData
+    - LMGDataAccess
+    - LMGDomain
+    - LMGEventLogging
+    - LMGLocalData
+    - LMGNotificationBus
+    - LMGRemoteData
+    - LMGSensorData
+    - LMGUI
+    - OneSignal
+    - PINCache
+    - PINRemoteImage
+    - Reachability
+    - SDWebImage
+    - Smooch
+    - SnowplowTracker
+
+SPEC CHECKSUMS:
+  Apollo: 19caf3246d292bbb69ecad1bd098661f78222aba
+  Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
+  Fabric: f988e33c97f08930a413e08123064d2e5f68d655
+  FBAnnotationClustering: 0fb150b264030ca72f7c182c94473dd769e9c43a
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
+  LMGData: 6c5973e1182b478d54774a8b2bc6e14bc5cd9f83
+  LMGDataAccess: 00e1a32f6d1314192de1811589efd0e17b70f1f2
+  LMGDomain: 657978953ec199791a57bd094d221feca10a68a9
+  LMGEventLogging: 225feb79107cd7e701e99413c879b28c3eb03fe3
+  LMGLocalData: d6a1954a2659034d2233b70c6d5dfa363a595f77
+  LMGNotificationBus: dd6d23ac36ed9b2831822df2e5e0778580bb6d04
+  LMGRemoteData: b14865baf0bce0eecc6e143ac02617078a34d587
+  LMGSensorData: c6094ea3f9948de0e9076493ee339dd096fe0649
+  LMGUI: 11be00c5bb948f500b335813d3ce4f4794e2fde1
+  OneSignal: ccdeb961882f8668305e5b694e2cb7cb325fc907
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  PINRemoteImage: 4ac4011c5caefd6befd99758e09becede05d3226
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  Smooch: cae9192fec23cc9380b4dae117b6cf38c48e8eff
+  SnowplowTracker: bcda4d9ec98f85a04c339669e7b3d072c89bbb26
+
+PODFILE CHECKSUM: 27e16772d033d9622143957a39c1c4c5526a8070
+
+COCOAPODS: 1.5.3
